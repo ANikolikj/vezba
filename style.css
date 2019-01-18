@@ -75,3 +75,35 @@
      padding: 10px 0;
      font-weight: bold;
  } */
+.hey-bottom {
+    padding-bottom: 50px;
+}
+
+.bg-grey {
+    background-color: rgb(240, 240, 240);
+}
+
+.bg-grey i {
+    font-size: 40px;
+    padding: 15px 0;
+    color: rgb(199, 33, 83);
+}
+
+.bg-grey hr {
+    width: 20%;
+    border-color: rgb(199, 33, 83);
+}
+
+.block-gradient:hover {
+    background-image: linear-gradient(125deg,rgb(120, 41, 211), rgb(199, 33, 83));
+    color: white; 
+    border-radius: 10px;
+}
+
+.block-gradient:hover i {
+    color: white;
+}
+
+.block-gradient:hover hr {
+    border-color: rgb(255, 255, 255);
+}
